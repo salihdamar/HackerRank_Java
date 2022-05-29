@@ -1,4 +1,3 @@
-import javax.swing.plaf.synth.SynthOptionPaneUI;
 import java.util.Scanner;
 
 public class Java_Loops_I {
