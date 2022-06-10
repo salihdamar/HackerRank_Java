@@ -48,16 +48,13 @@ public class Java_Loops_II {
              S3 = 5 + 1*3 +2*3 + 4*3 + 8*3 = 50
              S4 = 5 + 1*3 + 2*3 + 4*3 + 8*3 + 16*3 = 98
              We then print each element of our series as a single line of space-separated values.
-
          */
 
         Scanner scan = new Scanner(System.in);
         System.out.print("The number of queries:");
         int input = scan.nextInt();
 
-
         for (int i = 0; i < input; i++) {
-
             System.out.print("Enter a:");
             int a = scan.nextInt();
             System.out.print("Enter b:");
@@ -71,7 +68,5 @@ public class Java_Loops_II {
             }
             System.out.println();
         }
-
     }
-
 }
