@@ -3,27 +3,27 @@ import java.util.Scanner;
 public class Java_Loops_I {
     public static void main(String[] args) {
         /**
-            Objective
+            Objective:
             In this challenge, we're going to use loops to help us do some simple math.
 
-            Task
+            Task:
             Given an integer,N, print its first 10 multiples. Each multiple N x i (where 1<= i <=10 ) should be printed on
             a new line in the form: N x i = result.
 
-            Input Format
+            Input Format:
             A single integer,N.
 
-            Constraints
+            Constraints:
             2<= i <=20
 
-            Output Format
+            Output Format:
             Print 10 lines of output; each line i (where 1<= i <=10) contains the result of  N x i in the form:
             N x i = result.
 
-            Sample Input
+            Sample Input:
             2
 
-            Sample Output
+            Sample Output:
             2 x 1 = 2
             2 x 2 = 4
             2 x 3 = 6
@@ -35,7 +35,7 @@ public class Java_Loops_I {
             2 x 9 = 18
             2 x 10 = 20
 
-         * */
+         */
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter integer number");
