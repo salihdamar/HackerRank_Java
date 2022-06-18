@@ -62,7 +62,6 @@ class Soccer extends Sports{
 }
 
 public class MetodOverriding {
-
     public static void main(String []args){
         /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
         Sports c1 = new Sports();
@@ -72,5 +71,4 @@ public class MetodOverriding {
         System.out.println(c2.getName());
         c2.getNumberOfTeamMembers();
     }
-
 }
